@@ -1,0 +1,29 @@
+package com.ncpbails.alexsmobs.item;
+
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
+import vectorwing.farmersdelight.common.FoodValues;
+import vectorwing.farmersdelight.common.registry.ModEffects;
+
+public class ModFoods {
+
+    //CUTS
+    public static final FoodProperties KANGAROO_SHANK = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.2F).meat().fast().build();
+    public static final FoodProperties COOKED_KANGAROO_SHANK = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.4F).meat().fast().build();
+    public static final FoodProperties LOOSE_MOOSE_RIB = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.2F).meat().fast().build();
+    public static final FoodProperties COOKED_LOOSE_MOOSE_RIB = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.4F).meat().fast().build();
+
+    //MEALS
+    public static final FoodProperties GONGYLIDIA_BRUSCHETTA = (new FoodProperties.Builder()).nutrition(10).saturationMod(1.0F).build();
+    public static final FoodProperties MAGGOT_SALAD = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.6F)
+            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, FoodValues.SHORT_DURATION, 0), 1.0F).build();
+
+    public static final FoodProperties KANGAROO_STEW = (new FoodProperties.Builder()).nutrition(10).saturationMod(0.8F)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), FoodValues.LONG_DURATION, 0), 1.0F).build();
+    public static final FoodProperties ACACIA_BLOSSOM_SOUP = (new FoodProperties.Builder()).nutrition(12).saturationMod(0.8F)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), FoodValues.LONG_DURATION, 0), 1.0F).build();
+    public static final FoodProperties LOBSTER_LINGUINI = (new FoodProperties.Builder()).nutrition(12).saturationMod(0.8F)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), FoodValues.LONG_DURATION, 0), 1.0F).build();
+
+}
