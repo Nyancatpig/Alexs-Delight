@@ -21,7 +21,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "org.spongepowered.mixin"
 
-version = '1.18.2-1.2.1'
+version = '1.18.2-1.2.2'
 group = 'com.ncpbails.alexsdelight' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'alexsdelight'
 
@@ -187,7 +187,7 @@ dependencies {
 
     //implementation fg.deobf("curse.maven:abnormals-core:3457851")
     implementation fg.deobf("curse.maven:farmersdelight-398521:3765351")
-    implementation fg.deobf("curse.maven:alexsmobs-426558:3709858")
+    implementation fg.deobf("curse.maven:alexsmobs-426558:3782294")
     implementation fg.deobf("curse.maven:citadel-331936:3732360")
     runtimeOnly fg.deobf("curse.maven:appleskin-248787:3686482")
 
@@ -210,7 +210,7 @@ jar {
         attributes([
                 "Specification-Title"     : "alexsdelight",
                 "Specification-Vendor"    : "ncpbails",
-                "Specification-Version"   : "1.2.1", // We are version 1 of ourselves
+                "Specification-Version"   : "1.2.2", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "ncpbails",
