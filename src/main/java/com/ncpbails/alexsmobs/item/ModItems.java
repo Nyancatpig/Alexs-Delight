@@ -27,21 +27,68 @@ public class ModItems {
     public static final RegistryObject<Item> COOKED_LOOSE_MOOSE_RIB = ITEMS.register("cooked_loose_moose_rib",
             () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.COOKED_LOOSE_MOOSE_RIB)));
 
+    public static final RegistryObject<Item> BISON_MINCE = ITEMS.register("bison_mince",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BISON_MINCE)));
+
+    public static final RegistryObject<Item> BISON_PATTY = ITEMS.register("bison_patty",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BISON_PATTY)));
+
+    public static final RegistryObject<Item> RAW_BUNFUNGUS_DRUMSTICK = ITEMS.register("raw_bunfungus_drumstick",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.RAW_BUNFUNGUS_DRUMSTICK)));
+
+    public static final RegistryObject<Item> COOKED_BUNFUNGUS_DRUMSTICK = ITEMS.register("cooked_bunfungus_drumstick",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.COOKED_BUNFUNGUS_DRUMSTICK)));
+
+    public static final RegistryObject<Item> COOKED_CATFISH_SLICE = ITEMS.register("cooked_catfish_slice",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.COOKED_CATFISH_SLICE)));
+
+    public static final RegistryObject<Item> RAW_CATFISH_SLICE = ITEMS.register("raw_catfish_slice",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.RAW_CATFISH_SLICE)));
+
+
+
+    //MEATS
+
+    public static final RegistryObject<Item> RAW_BISON = ITEMS.register("raw_bison",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.RAW_BISON)));
+
+    public static final RegistryObject<Item> COOKED_BISON = ITEMS.register("cooked_bison",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.COOKED_BISON)));
+
+    public static final RegistryObject<Item> RAW_BUNFUNGUS = ITEMS.register("raw_bunfungus",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.RAW_BUNFUNGUS)));
+
+    public static final RegistryObject<Item> COOKED_BUNFUNGUS = ITEMS.register("cooked_bunfungus",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.COOKED_BUNFUNGUS)));
+
+    public static final RegistryObject<Item> COOKED_CENTIPEDE_LEG = ITEMS.register("cooked_centipede_leg",
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.COOKED_CENTIPEDE_LEG)));
+
+
     //MEALS
     public static final RegistryObject<Item> GONGYLIDIA_BRUSCHETTA = ITEMS.register("gongylidia_bruschetta",
             () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.GONGYLIDIA_BRUSCHETTA)));
 
     public static final RegistryObject<Item> MAGGOT_SALAD = ITEMS.register("maggot_salad",
-            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.MAGGOT_SALAD)));
+            () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(AlexsMobs.TAB).food(ModFoods.MAGGOT_SALAD)));
 
     public static final RegistryObject<Item> KANGAROO_STEW = ITEMS.register("kangaroo_stew",
-            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.KANGAROO_STEW)));
+            () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(AlexsMobs.TAB).food(ModFoods.KANGAROO_STEW)));
 
     public static final RegistryObject<Item> ACACIA_BLOSSOM_SOUP = ITEMS.register("acacia_blossom_soup",
-            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.ACACIA_BLOSSOM_SOUP)));
+            () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(AlexsMobs.TAB).food(ModFoods.ACACIA_BLOSSOM_SOUP)));
 
-    public static final RegistryObject<Item> LOBSTER_LINGUINI = ITEMS.register("lobster_linguini",
-            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.LOBSTER_LINGUINI)));
+    public static final RegistryObject<Item> LOBSTER_PASTA = ITEMS.register("lobster_pasta",
+            () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(AlexsMobs.TAB).food(ModFoods.LOBSTER_PASTA)));
+
+    public static final RegistryObject<Item> BISON_BURGER = ITEMS.register("bison_burger",
+            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BISON_BURGER)));
+
+    public static final RegistryObject<Item> BUNFUNGUS_SANDWICH = ITEMS.register("bunfungus_sandwich",
+            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BUNFUNGUS_SANDWICH)));
+
+    public static final RegistryObject<Item> KANGAROO_PASTA = ITEMS.register("kangaroo_pasta",
+            () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(AlexsMobs.TAB).food(ModFoods.KANGAROO_PASTA)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

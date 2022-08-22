@@ -5,7 +5,10 @@
       "tag": "forge:bread"
     },
     {
-      "item": "alexsdelight:cooked_kangaroo_shank"
+      "tag": "alexsdelight:cooked_kangaroo"
+    },
+    {
+      "tag": "alexsdelight:cooked_kangaroo"
     },
     {
       "tag": "forge:salad_ingredients"
