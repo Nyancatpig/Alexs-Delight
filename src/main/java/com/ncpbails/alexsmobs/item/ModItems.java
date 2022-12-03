@@ -82,10 +82,10 @@ public class ModItems {
             () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(AlexsMobs.TAB).food(ModFoods.LOBSTER_PASTA)));
 
     public static final RegistryObject<Item> BISON_BURGER = ITEMS.register("bison_burger",
-            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BISON_BURGER)));
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BISON_BURGER)));
 
     public static final RegistryObject<Item> BUNFUNGUS_SANDWICH = ITEMS.register("bunfungus_sandwich",
-            () -> new BowlFoodItem(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BUNFUNGUS_SANDWICH)));
+            () -> new Item(new Item.Properties().tab(AlexsMobs.TAB).food(ModFoods.BUNFUNGUS_SANDWICH)));
 
     public static final RegistryObject<Item> KANGAROO_PASTA = ITEMS.register("kangaroo_pasta",
             () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(AlexsMobs.TAB).food(ModFoods.KANGAROO_PASTA)));
