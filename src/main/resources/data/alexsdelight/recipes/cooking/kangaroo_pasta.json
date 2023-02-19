@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "item": "alexsmobs:lobster_tail"
+      "tag": "alexsdelight:cooked_kangaroo"
     },
     {
       "item": "farmersdelight:raw_pasta"
@@ -12,7 +12,7 @@
     }
   ],
   "result": {
-    "item": "alexsdelight:lobster_linguini"
+    "item": "alexsdelight:kangaroo_pasta"
   },
   "container": {
     "item": "minecraft:bowl"

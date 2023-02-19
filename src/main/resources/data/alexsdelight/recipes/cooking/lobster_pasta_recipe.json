@@ -2,17 +2,17 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "tag": "alexsdelight:cooked_kangaroo"
+      "item": "alexsmobs:lobster_tail"
     },
     {
-      "item": "minecraft:carrot"
+      "item": "farmersdelight:raw_pasta"
     },
     {
-      "item": "minecraft:beetroot"
+      "item": "farmersdelight:tomato_sauce"
     }
   ],
   "result": {
-    "item": "alexsdelight:kangaroo_stew"
+    "item": "alexsdelight:lobster_pasta"
   },
   "container": {
     "item": "minecraft:bowl"
